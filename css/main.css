@@ -1,5 +1,6 @@
 ﻿body {
     background-image: url('/resource/bg.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-color: #6db33f;
+    background-position: center; 
 }
