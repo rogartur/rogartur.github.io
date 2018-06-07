@@ -6,9 +6,9 @@ date: 2018-06-06 22:00:00 +0300
 description: Default Select value in model driven forms with dynamic data source
 tag: [Angular, Bootstrap, Typescript]
 ---
-In case anyone is facing a problem with seeting the default value in &lt;select&gt;&lt;/select&gt; components, while connecting to a dynamic datasource (e.g. REST).
+In case anyone is facing a problem with setting the default value in &lt;select&gt;&lt;/select&gt; components, while connecting to a dynamic datasource (e.g. REST).
 
-First the part that subscribes to receive the data:
+First the part when we subscribe to receive the data:
 
 ~~~
 ngOnInit() {
