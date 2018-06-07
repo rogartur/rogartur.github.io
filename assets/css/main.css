@@ -146,6 +146,10 @@ samp {
   /* 2 */
 }
 
+code {
+   white-space: pre-wrap;  
+}
+
 /**
  * Add the correct font style in Android 4.3-.
  */
