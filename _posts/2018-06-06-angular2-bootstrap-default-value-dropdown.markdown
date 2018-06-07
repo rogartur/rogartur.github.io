@@ -31,8 +31,8 @@ Now onto the view:
 ~~~~~
 <label class="control-label" for="address">Link Type:</label>
 <select id="address" class="form-control" formControlName="address">
-~~~<option [ngValue]="null" [selected]="true" hidden disabled>Select address</option>
-~~~<option *ngFor="let addr of contactAddresses" [ngValue]="addr">{{ addr }}</option>
+  <option [ngValue]="null" [selected]="true" hidden disabled>Select address</option>
+  <option *ngFor="let addr of contactAddresses" [ngValue]="addr">{{ addr }}</option>
 </select>
 ~~~~~
 \\
